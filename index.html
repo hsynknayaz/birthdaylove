@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doğum Günü Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-screen">
+    <button id="start-button">Puzzle’a Başla ♪</button>
+  </div>
+
+  <div id="puzzle-container" style="display: none;">
+    <canvas id="puzzleCanvas"></canvas>
+  </div>
+
+  <div id="video-container" style="display: none;">
+    <video id="surprise-video" controls>
+      <source src="media/video.mp4" type="video/mp4">
+      Tarayıcınız video etiketini desteklemiyor.
+    </video>
+  </div>
+
+  <audio id="bg-music" loop>
+    <source src="media/music.mp3" type="audio/mpeg">
+    Tarayıcınız ses etiketini desteklemiyor.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
